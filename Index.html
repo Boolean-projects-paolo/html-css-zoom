@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css%22%3E">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <main>
@@ -19,7 +22,7 @@
                     <span><i class="bi bi-grid-3x3-gap-fill"></i></span> 
                     <span>Speaker View</span> 
                 </div>
-                <span id="exspand"><i class="fa-solid fa-maximize"></i></span>
+                <span id="expand"><i class="fa-solid fa-maximize"></i></span>
             </div>
         </header>
 
@@ -229,11 +232,61 @@
 
     <footer>
         <div class="fcontainer">
-            <div class="left"></div>
+            <div class="left">
+                <div class="microphone">
+                   <span class="icon"><i class="bi bi-mic-fill"></i></span>
+                   <span>Mute</span> 
+                </div>
+                <i class="fa-solid fa-sort-up"></i>
+                <div class="video">
+                    <span class="icon"><i class="bi bi-camera-video-fill"></i></span>
+                    <span>Stop Video</span> 
+                </div>
+                <i class="fa-solid fa-sort-up"></i>
+            </div>
+            
+            <div class="center">
+                <div class=sub>
+                    <span class="icon"><i class="fa-solid fa-user-plus"></i></span>
+                    <span>invite</span>
+                </div>
+                <div class=sub>
+                    <span class=icon><i class="cmd-footer fa-solid fa-user-group"></i></span>
+                    <span>Manage Participants</span>
+                </div>
+                <div class=sub>
+                    <span class=icon><i class="cmd-footer fa-solid fa-chart-column"></i></span>
+                    <span>Polling</span>
+                </div>
+                <div class="sub">
+                    <span class="icon"><i id="green" class="cmd-footer fa-solid fa-share-from-square"></i></span>
+                    <span>Share screen</span> 
+                </div>
+                
+                <span id="row"><i class="cmd-footer fa-solid fa-chevron-up"></i></span> 
 
-            <div class="center"></div>
+                <div class="sub">
+                    <span class="icon"><i class="cmd-footer fa-solid fa-comment"></i></span>
+                    <span>Chat</span> 
+                </div>
+                <div class="sub">
+                    <span class="icon"><i class="cmd-footer fa-solid fa-record-vinyl"></i></span>
+                    <span>Record</span> 
+                </div>
+                <div class="sub">
+                    <span class="icon"><i class="cmd-footer fa-brands fa-microsoft"></i></span>
+                    <span>Breakout Rooms</span> 
+                </div>
+                <div class="sub">
+                    <span class="icon"><i class="cmd-footer fa-solid fa-ellipsis"></i></span>
+                    <span>More</span> 
+                </div>      
+            </div>
 
-            <div class="right"></div>
+            <div class="right">
+                <button id="end">End meeting</button>
+            </div>
+            
         </div>
     </footer>
 </body>
