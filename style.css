@@ -13,7 +13,10 @@ body{
     font-size: 11px;   
 }
 
+/* Header */
+
 .hcontainer{
+    max-width:1850px;
     height: 3rem;
     color: white;
     display: flex;
@@ -35,9 +38,10 @@ body{
     border-radius: 2px;
 }
 
+/* Main */
+
 .container{
     max-width:1600px;
-    /* max-height: 2100px; */
     height: 50vh;
     width: 100%;
     padding: 2rem;
@@ -63,6 +67,8 @@ body{
     padding-inline:0.1rem;
 }
 
+/* Footer */
+
 .fcontainer{
     height: 7rem;
     background-color: rgb(34, 34, 34);
@@ -74,8 +80,7 @@ body{
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
 
 .left{
@@ -118,20 +123,27 @@ body{
 }
 
 #row{
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 #green{
     color: greenyellow;
 }
 
+#write{
+    padding-top: 0.6rem;
+}
+
 #end{
     color: red;
     font-weight: 600;
-    font-size: 10px;
-    background-color: rgba(211, 211, 211, 0.416);
+    font-size: 12px;
+    background-color: rgba(211, 211, 211, 0.24);
     border: 0;
-    padding: 3rem;
+    padding-inline: 1.8rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    margin-bottom: 0.4rem;   
 }
 
 
